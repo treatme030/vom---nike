@@ -1,0 +1,221 @@
+/* Text Banner */
+
+.banner_wrap { width: 100%; height: 58px; padding: 10px 0 0 0; background-color:rgb(246,246,246);}
+.banner_title { text-align: center; font-size: 14px; font-weight: 500; line-height: 1.2;}
+.banner_subtitle { text-align: center;}
+.banner_subtitle a {  font-size: 12px; font-weight: 500; text-decoration:underline;}
+
+/* Main Visual CSS */
+
+.main_visual_wrap { width: 100%; padding: 0 48px;}
+.main_visual { width: 100%; padding: 0 8px; display: flex;}
+
+.main_visual_1 { width: 50%; height: 900px; background-image: url(../img/nike-just-do-it-1.png); padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
+}
+.main_visual_1:hover { cursor: pointer;}
+
+.main_visual_1 img {display: none;}
+
+.main_visual_2 { width: 50%; height: 900px; background-image: url(../img/nike-just-do-it-2.png);
+padding: 36px; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;
+}
+.main_visual_2 img {display: none;}
+
+.button_shop_white {display: block;
+    width: 95px; height: 40px; background-color: white; color:rgb(17,17,17); border-radius: 20px; text-align: center; line-height: 40px; 
+   border: none;}  
+
+.button_shop_white:hover { background-color: rgba(255,255,255,0.6);}
+
+
+.button_shop_black { display: block;
+   width: 95px; height: 40px; background-color: rgb(17,17,17); color:white; border-radius: 20px; text-align: center; line-height: 40px; border: none;}  
+
+.button_shop_black:hover { background-color: rgba(0,0,0,0.6);}
+
+
+/* Main Visual Video */
+
+.hero_video_wrap { width: 100%; height:900px; padding: 0 56px; overflow: hidden; position: relative; }
+.hero_video {width: 100%; margin:-90px 0 0 0; }
+.hero_video_wrap a {display: block; width: calc(100% - 112px); height: 100%; top:0; left:56px; position: absolute; background-color: rgba(0,0,0,0.4); }
+
+.hero_video_title { position: absolute; top:420px; left:0; text-align: center; width: 100%; font-family: 'Nike Futura'; font-size: 120px; color:rgba(255,255,255,0.8); }
+
+/* The Latest & Greatest - Best */
+
+.best_wrap { width: 100%; padding:84px 0 0 ;}
+.best_scroll_wrap { width: 100%; overflow: scroll; padding: 0 0 20px 48px;}
+.best { width: 200%; display: flex; }
+.best li { width: calc(16.66667% - 16px); height: auto; margin: 0 8px; }
+.best li a {display: block; width: 100%; height: 100%;}
+
+.best li img {width: 100%; vertical-align: middle; }
+.best li div { display: flex; justify-content: space-between; padding: 12px 16px 0 0; }
+.best li div h4 { font-size: 16px; color:rgb(17,17,17); }
+.best li div p { color: rgb(17,17,17);}
+
+
+/* Just In CSS */
+
+.just_in_wrap { width: 100%; padding: 84px 48px 0; }
+
+.just_in { width: 100%; padding: 0; display: flex; }
+
+.just_in_1 { width: calc(50% - 16px); height: 700px; background-image: url("../img/nike-just-do-it\ \(1\).jpg"); margin: 0 8px; 
+}
+.just_in_1_a { display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px; }
+
+.just_in_2 { width: calc(50% - 16px); height: 700px; background-image: url(../img/just_in_2.jpg); margin: 0 8px;
+ 
+}
+.just_in_2_a { display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px; }
+
+/* Featured Footwear CSS */
+
+.footwear_wrap { width: 100%; padding: 84px 48px 0;}
+.footwear { width: 100%; padding: 0 8px; display: flex;}
+
+.footwear_1 { width: 100%; height: 700px; background-image: url(../img/footwear_1.jpg); padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
+}
+.footwear_1:hover { cursor: pointer;}
+
+
+/* Trending Now */
+
+.trending_now_wrap { width: 100%; padding: 84px 48px 0; }
+.trending_now { width: 100%; display: flex;}
+
+.trending_now_1 { width:calc(50% - 16px); height: 700px; margin: 0 8px; background-image: url("../img/nike-just-do-it\ \(4\).jpg");}
+
+.trending_now_1_a {  display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;}
+
+/* .trending_now_1_a:hover { background-color: rgba(0,0,0,0.2);} */
+
+.trending_now_2 { width:calc(50% - 16px); height: 700px; margin: 0 8px; background-image: url("../img/nike-just-do-it\ \(5\).jpg");}
+
+.trending_now_2_a {  display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;}
+
+/* .trending_now_2_a:hover { background-color: rgba(0,0,0,0.2);} */
+
+/* Gear for Your Golas CSS */
+
+.gear_wrap { width: 100%; padding: 84px 48px 0; }
+.gear { width: 100%; display: flex;}
+.gear li { width: calc(33.33333% - 16px); margin: 0 8px;}
+.gear li img { width: 100%; margin:0 0 16px;}
+
+
+/* Nike Slogan */
+
+.slogan_wrap {width: 100%; padding: 84px 48px 0; }
+
+.slogan { width: 100%; height: 500px; background-image: url(../img/slogan.jpg); margin: 0 8px; display: flex; justify-content: center; align-items: flex-end; padding: 0 0 30px;}
+
+.slogan:hover { cursor: pointer;}
+
+.button_join_black { width: 112px; height: 40px; background-color: rgb(17,17,17); color:white; border-radius: 20px; text-align: center; line-height: 40px; border: none; transition: background-color 0.3s;}  
+
+.button_join_black:hover {background-color: rgb(0,0,0,0.6);}
+.slogan button { margin: 0 4px;}
+
+/* Menu Link */
+
+.menulink_wrap { width: 100%; padding: 84px 48px;}
+
+.menulink { width: 880px; padding: 0 8px; margin: 0 auto; display: flex; justify-content: space-between;  height: 190px; overflow: hidden;  transition: height 0.4s;}
+
+.menulink:hover { height: 550px; }
+
+.menulink ul { width: 192px;}
+
+.menulink ul li { margin: 0 0 12px; }
+.menulink ul li a { font-family: 'Noto Sans KR'; font-size: 16px; line-height: 24px; font-weight: 500;  color: rgb(117,117,117);}
+
+.menulink ul li:first-child { font-family: 'Noto Sans KR'; font-size: 16px; line-height: 24px; font-weight: 500; margin:0 0 24px; color: rgb(17,17,17);}
+
+
+/* CSS for Tablet Portrait */
+
+@media screen and (max-width:1023px) 
+
+{
+   /* Main Visual CSS */
+
+.main_visual_wrap { padding: 0 12px;}
+
+.main_visual_1 {  height: 500px; 
+}
+.main_visual_1 p:nth-child(2) { font-size: 48px; line-height: 40px;}
+
+.main_visual_2 {  height: 500px; 
+}
+
+
+/* The Latest & Greatest - Best */
+
+.best_wrap { width: 100%; padding:84px 0 0 ;}
+.best_scroll_wrap { width: 100%; overflow: scroll; padding: 0 0 20px 12px;}
+.best_wrap h2 { padding:0 0 0 20px;}
+
+
+/* Just In CSS */
+
+.just_in_wrap { width: 100%; padding: 84px 12px 0; }
+
+.just_in_1 { height: 500px; }
+
+.just_in_2 { height: 500px; }
+
+/* Featured Footwear CSS */
+
+.footwear_wrap { width: 100%; padding: 84px 12px 0;}
+.footwear_1 { height: 500px;}
+.footwear_1 p:nth-child(1) { font-size: 48px; line-height: 40px; }
+
+
+/* Trending Now */
+
+.trending_now_wrap { width: 100%; padding: 84px 12px 0; }
+
+.trending_now_1 {height: 500px;}
+.trending_now_2 {height: 500px;}
+
+
+/* Gear for Your Golas CSS */
+
+.gear_wrap { width: 100%; padding: 84px 12px 0; }
+
+/* Menu Link */
+
+.menulink_wrap { width: 100%; padding: 84px 12px;}
+
+.menulink { width: 100%; padding: 0 8px; }
+
+.menulink ul { width: 25%;}
+
+.menulink ul li a {font-size: 14px; line-height: 24px; }
+
+.menulink ul li:first-child {font-size: 14px; line-height: 24px;}
+
+@media screen and (max-width:639px) {
+
+   .main_visual { width: 100%; padding: 0 8px; display: flex; flex-wrap: wrap;}
+
+   .main_visual_1 { width:100%; height: auto; background-image: none; padding: 0px; 
+   }
+
+   .main_visual_1 img {display: block; margin: 0 0 20px 0;  width: 100%;}
+   .main_visual_1:hover { cursor: pointer;}
+   .main_visual_1 p { color:rgb(17,17,17);}
+   .main_visual_1 a { color:white; background-color: rgb(17,17,17);}
+
+   .main_visual_2 { width: 100%; height: auto; background-image:none;
+   padding: 0px; margin:20px 0 0 0;
+   }
+   .main_visual_2 img {display: block; margin: 0 0 20px 0; width: 100%;}
+   .main_visual_2 p { color:rgb(17,17,17);}
+
+
+
+}
