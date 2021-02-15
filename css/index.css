@@ -76,7 +76,7 @@ padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
 .footwear_wrap { width: 100%; padding: 84px 48px 0;}
 .footwear { width: 100%; padding: 0 8px; display: flex;}
 
-.footwear_1 { width: 100%; height: 700px; background-image: url(../img/footwear_1.jpg); padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
+.footwear_1 { width: 100%; height: 900px; background-image: url(../img/footwear_1.jpg); padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
 }
 .footwear_1:hover { cursor: pointer;}
 
@@ -158,6 +158,8 @@ padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
 .best_scroll_wrap { width: 100%; overflow: scroll; padding: 0 0 20px 12px;}
 .best_wrap h2 { padding:0 0 0 20px;}
 
+.best { width: 270%; display: flex; }
+
 
 /* Just In CSS */
 
@@ -207,24 +209,26 @@ padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
 
 .menulink ul li:first-child {font-size: 14px; line-height: 24px;}
 
+
+}
+
+/* Mobile Portrait */
 @media screen and (max-width:639px) {
 
    .main_visual { width: 100%; padding: 0 8px; display: flex; flex-wrap: wrap;}
 
-   .main_visual_1 { width:100%; height: auto; background-image: none; padding: 0px; 
+   .main_visual_1 { width:100%; height: 500px; background-image: none; padding: 0px; 
    }
 
-   .main_visual_1 img {display: block; margin: 0 0 20px 0;  width: 100%;}
+   .main_visual_1 img {display: block; margin: 0 0 20px 0;  width: 100%; height: 500px; background-image: url(../img/nike-just-do-it-1.png); background-size: cover;
+   background-position: center center;}
    .main_visual_1:hover { cursor: pointer;}
    .main_visual_1 p { color:rgb(17,17,17);}
    .main_visual_1 a { color:white; background-color: rgb(17,17,17);}
 
-   .main_visual_2 { width: 100%; height: auto; background-image:none;
-   padding: 0px; margin:20px 0 0 0;
+   .main_visual_2 { display: none;
    }
-   .main_visual_2 img {display: block; margin: 0 0 20px 0; width: 100%;}
-   .main_visual_2 p { color:rgb(17,17,17);}
-
+  
    /* The Latest And Greatest CSS */
 
    .best_scroll_wrap { padding: 0 0 20px 12px;}
@@ -300,4 +304,20 @@ padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
 
    .menulink ul li:first-child {font-size: 14px; line-height: 24px;}
 
+}
+
+/* Tablet landscape & Mini Notebook(1280,1366) */
+@media screen and (max-width:1339px) {
+   .main_visual_1 { height: 700px; 
+   }
+   .main_visual_2 { height: 700px; 
+   }
+   .just_in_1 { height: 500px; }
+
+   .just_in_2 { height: 500px; }
+
+   .footwear_1 { height: 700px;}
+   .trending_now_1 { height: 500px; }
+
+   .trending_now_2 { height: 500px; }
 }
